@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prefect-playground"
+version = "0.1.0"
+description = ""
+authors = ["Brendan Maguire <1093243+brendanmaguire@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "prefect_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prefect = "^2.11.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
