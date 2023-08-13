@@ -9,6 +9,7 @@ packages = [{include = "prefect_playground"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 prefect = "^2.11.3"
+httpx = "^0.24.1"
 
 
 [build-system]
