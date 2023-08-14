@@ -11,7 +11,6 @@ python = "^3.11"
 prefect = "^2.11.3"
 httpx = "^0.24.1"
 
-
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core=1.5.1"]
 build-backend = "poetry.core.masonry.api"
